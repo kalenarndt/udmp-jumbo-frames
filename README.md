@@ -1,6 +1,6 @@
 # UDMP Monitor MTU
 
-UDMP Monitor MTU is a shell script that checks all VLAN interfaces and LAN SFP+ ports on the UDM Pro and sets them to 9216. This allows for intervlan routing to take place without being fragmented
+UDMP Monitor MTU is a shell script that checks all VLAN interfaces and LAN SFP+ ports on the UDM Pro and sets them to 9216. This allows for intervlan routing to take place without being fragmented. This runs every 5 seconds but can be modified if you change the sleep values in the script.
 
 ## Pre-Requisites
 UDMP has to have the Boot script installed from this repo https://github.com/boostchicken/udm-utilities/tree/master/on-boot-script
