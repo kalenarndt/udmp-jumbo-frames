@@ -14,7 +14,8 @@ Place the 10-monitor-mtu.sh in /mnt/data/on_boot.d/ folder and mark it as execut
 chmod +x 10-monitor-mtu.sh
 ```
 ***IMPORTANT***
-[Feature Request](https://github.com/boostchicken/udm-utilities/issues/162) 
+
+Current [Feature Request](https://github.com/boostchicken/udm-utilities/issues/162) with udm-utilities so this doesn't have to be done.
 
 Modify your on_boot.sh file on line 6 under /mnt/data/on_boot.sh to match this.
 
