@@ -1,7 +1,6 @@
 #!/bin/sh
 function check_mtu {
-    ip link list | grep -i eth10 | grep -i 'mtu 9216' > /dev/null;
-    ip link list | grep -i switch | grep -i 'mtu 9216' > /dev/null;
+    ip link list | grep -E 'br.:|br..:' | grep 'mtu 9216' > /dev/null;
 }
 while true; do
   if check_mtu; then
