@@ -1,5 +1,7 @@
 # UDMP Monitor MTU
 
+# Ubiquiti has added this as a part of the 1.12.13 EA firmware. This repository is now archived
+
 UDMP Monitor MTU is a shell script that checks all VLAN interfaces and LAN SFP+ ports on the UDM Pro and sets them to 9216. This allows for intervlan routing to take place without being fragmented. This runs every 5 seconds but can be modified if you change the sleep values in the script.
 
 ## Pre-Requisites
